@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.egg-info/
+*.egg
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+
+# Environment
+.env
+*.env
+
+# SQLite database
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Compiled files
+*.mo
+*.pot
+
+# Media & static (optional — если собирается локально)
+media/
+staticfiles/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
